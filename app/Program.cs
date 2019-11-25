@@ -7,7 +7,7 @@ namespace App
 {
     public class Program
     {
-        public const string ConnectionString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=my-db;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+        public const string ConnectionString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=mydb;Integrated Security=True;Trusted_Connection=True";
 
         public static int Main(string[] args)
         {
