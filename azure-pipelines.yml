@@ -14,5 +14,6 @@ variables:
 
 steps:
 - script: sqllocaldb start mssqllocaldb
+  displayName: 'start mssqllocaldb'
 - script: dotnet test --configuration $(buildConfiguration)
   displayName: 'dotnet test $(buildConfiguration)'
